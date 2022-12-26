@@ -7,7 +7,12 @@ import { MongooseModule } from "@nestjs/mongoose";
 import { ConfigModule } from "@nestjs/config";
 
 @Module({
-	imports: [AuthModule, UsersModule, MongooseModule.forRoot("mongodb://localhost/vue-crud"), ConfigModule.forRoot()],
+	imports: [
+		ConfigModule.forRoot({ isGlobal: true }),
+		MongooseModule.forRoot(process.env.DATABASE_URL, { dbName: "vue-crud" }),
+		AuthModule,
+		UsersModule,
+	],
 	controllers: [AppController],
 	providers: [AppService],
 })
