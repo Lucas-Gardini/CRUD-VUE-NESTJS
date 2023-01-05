@@ -1,4 +1,4 @@
-# CRUD-VUE-NESTJS
+# Introdução ao Vue3 e TailwindCSS
 
 ## O Que será abordado
 
