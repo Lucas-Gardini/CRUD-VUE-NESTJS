@@ -24,7 +24,8 @@
   - v-model
 - Propriedades calculadas e observadores do Vue.js
   - Propriedades calculadas
-  - Observadores
+  - Ref
+  - Reactive
 - Transições e animações do Vue.js
   - Adicionando transições e animações a componentes
 - Roteamento do Vue.js
@@ -34,3 +35,10 @@
   - O que é o Pinia
   - Configurando stores com Pinia
   - Mutações e ações
+
+### Introdução ao Tailwindcss
+- O que é o TailwindCss
+- Como instalar, importar e instalar
+- Classes
+- Modo claro e escuro
+- Responsividade
