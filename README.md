@@ -1,46 +1,44 @@
-# vue3-test
+# CRUD-VUE-NESTJS
 
-This template should help get you started developing with Vue 3 in Vite.
+## O Que será abordado
 
-## Recommended IDE Setup
+### Introdução ao Vue.js
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- O que é o Vue.js e por que usá-lo
+- Configurando um projeto Vue.js
+- Sintaxe de modelo do Vue.js
+  - Interpolação
+  - Diretivas
+  - Condicionais
+  - Laços
+- Componentes Vue.js
+  - Definindo componentes
+  - Propriedades
+  - Eventos personalizados
+  - Slots
+- Diretivas Vue.js
+  - v-bind
+  - v-if
+  - v-for
+  - v-on
+  - v-model
+- Propriedades calculadas e observadores do Vue.js
+  - Propriedades calculadas
+  - Ref
+  - Reactive
+- Transições e animações do Vue.js
+  - Adicionando transições e animações a componentes
+- Roteamento do Vue.js
+  - Configurando o roteamento com o vue-router
+  - Definindo rotas e navegando entre elas
+- Gerenciamento de estado do Vue.js com Pinia
+  - O que é o Pinia
+  - Configurando stores com Pinia
+  - Mutações e ações
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Introdução ao Tailwindcss
+- O que é o TailwindCss
+- Como instalar, importar e instalar
+- Classes
+- Modo claro e escuro
+- Responsividade
